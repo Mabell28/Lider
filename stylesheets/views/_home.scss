@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: Lato-Light;
+	src: url(../Fuente/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: Lato-Bold;
+	src: url(../Fuente/fonts/Lato-Bold.ttf);
+}
+
+.imagen-caja{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+}
+
+.titulo-caja{
+	padding: 2%;
+	font-family: "Lato-Bold";
+}
+
+.texto-caja{
+	font-family: "Lato-Light";
+}
+
+
+.container-rs{
+	margin: 0;
+	padding: 0;
+}
+.res-ser{
+	background-color: coral;
+	width: 100%;
+}
+
+.rs-row{
+	padding: 2%;
+	margin: 0% 10%;
+}
+
+.rs-img{
+	width: 80%;
+
+	img{
+		width: 100%;
+	}
+}
+
+.rs-texto{
+	margin: 0% 4%;
+	font-family: "Lato-Light";
+}
+
+.rs-titulo{
+	font-family: "Lato-Bold";
+	padding: 2% 0%;
+}
+
+.lider-mapa{
+	width: 100%;
+}
+
+.contacto{
+	background-color: #2980b9;
+}
+
+.titulo-contacto{
+	font-family: "Lato-Bold";
+}
+
+.img-asesor{
+	width: 50%;
+
+	img{
+		width: 100%;
+	}
+}
+
+.visita-img{
+	width: 30%;
+
+	img{
+		width: 100%;
+	}
+}
+
+.horario-img{
+	width: 35%;
+
+	img{
+		width: 100%;
+	}
+}
+
+.nombre-asesor{
+	font-family: "Lato-Bold";
+}
+
+.numero-asesor, .visita-texto, .horario-texto{
+	font-family: "Lato-Light";
+}
