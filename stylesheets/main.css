@@ -5646,18 +5646,8 @@ button.close {
 .pd-0 {
   padding: 0; }
 
-.rs-row {
-  padding: 2%;
-  margin: 0% 10%; }
-
-.rs-img {
-  width: 60%; }
-  .rs-img img {
-    width: 100%; }
-
-.rs-texto {
-  margin: 0% 12%;
-  font-family: "Lato-Light"; }
+.p-0 {
+  padding: 0; }
 
 * {
   margin: 0;
@@ -5669,6 +5659,9 @@ button.close {
 @font-face {
   font-family: Lato-Bold;
   src: url(../Fuente/fonts/Lato-Bold.ttf); }
+.texto-carrusel {
+  font-size: 25px; }
+
 .imagen-caja {
   width: 100%; }
   .imagen-caja img {
@@ -5706,14 +5699,19 @@ button.close {
   font-family: "Lato-Bold";
   padding: 2% 0%; }
 
+.texto-res, .texto-ser {
+  font-size: 16px; }
+
 .lider-mapa {
   width: 100%; }
 
 .contacto {
-  background-color: #2980b9; }
+  background-color: #2980b9;
+  padding: 2% 12%; }
 
 .titulo-contacto {
-  font-family: "Lato-Bold"; }
+  font-family: "Lato-Bold";
+  padding: 2%; }
 
 .img-asesor {
   width: 50%; }
@@ -5735,5 +5733,18 @@ button.close {
 
 .numero-asesor, .visita-texto, .horario-texto {
   font-family: "Lato-Light"; }
+
+.footer {
+  background-color: #34495e; }
+
+.texto-footer {
+  padding: 2% 18%;
+  margin: 0; }
+
+.icon-facebook {
+  width: 22%;
+  margin: 2% 3%; }
+  .icon-facebook img {
+    width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
