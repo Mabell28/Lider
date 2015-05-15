@@ -5659,8 +5659,72 @@ button.close {
 @font-face {
   font-family: Lato-Bold;
   src: url(../Fuente/fonts/Lato-Bold.ttf); }
+section#formulario {
+  width: 22%;
+  height: 380px;
+  margin-top: 3%;
+  margin-left: 64%;
+  background-color: rgba(255, 92, 7, 0.6);
+  position: absolute;
+  z-index: 10; }
+
+p#titulo {
+  font-size: 1.8em;
+  margin: 2% 6%;
+  color: white;
+  padding: 1%; }
+
+input[type="text"] {
+  width: 87%;
+  height: 37px;
+  margin-left: 6%;
+  margin-top: 3%;
+  padding: 6%;
+  font-size: 1.1em;
+  outline: none;
+  background-color: white;
+  border: 0px;
+  border-radius: 4px;
+  font-family: "Lato-Light"; }
+
+input[type="mensaje"] {
+  height: 105px;
+  width: 87%;
+  margin-left: 6%;
+  margin-top: 3%;
+  padding: 4%;
+  font-size: 1.1em;
+  outline: none;
+  background-color: white;
+  border: 0px;
+  border-radius: 6px;
+  font-family: "Lato-Light"; }
+
+input[type="submit"] {
+  margin: 5% 9%;
+  width: 78%;
+  outline: none;
+  border: 0px;
+  height: 43px;
+  background-color: #5063CC;
+  font-size: 1.0em;
+  font-family: "Lato-Bold";
+  border-radius: 6px;
+  color: white; }
+
 .texto-carrusel {
-  font-size: 25px; }
+  font-size: 49px;
+  margin-bottom: 3%;
+  margin-left: -12%;
+  width: 68%;
+  font-family: "Lato-Bold"; }
+
+.subtitulo-carrusel {
+  margin-bottom: 22%;
+  margin-left: -12%;
+  width: 29%;
+  font-size: 26px;
+  font-family: "Lato-Bold"; }
 
 .imagen-caja {
   width: 100%; }
