@@ -5801,14 +5801,14 @@ input[type="submit"] {
 
 .contacto {
   background-color: #2980b9;
-  padding: 2% 12%; }
+  padding: 2% 10%; }
 
 .titulo-contacto {
   font-family: "Lato-Bold";
-  padding: 2%; }
+  padding: 5%; }
 
 .img-asesor {
-  width: 50%; }
+  width: 70%; }
   .img-asesor img {
     width: 100%; }
 
@@ -5823,7 +5823,21 @@ input[type="submit"] {
     width: 100%; }
 
 .nombre-asesor {
-  font-family: "Lato-Bold"; }
+  font-family: "Lato-Bold";
+  width: 100%;
+  margin-left: -20%;
+  margin-top: -3%; }
+
+.numero-asesor {
+  margin-left: -20%;
+  padding-top: 1%;
+  width: 50%; }
+
+.visita-texto {
+  margin-left: -24%; }
+
+.horario-texto {
+  margin-left: -12%; }
 
 .numero-asesor, .visita-texto, .horario-texto {
   font-family: "Lato-Light"; }
@@ -5840,5 +5854,30 @@ input[type="submit"] {
   margin: 2% 3%; }
   .icon-facebook img {
     width: 100%; }
+
+@media (max-width: 768px) {
+  .rs-img {
+    width: 44%;
+    margin: 0 auto; }
+
+  .rs-texto {
+    margin: 0% -11%;
+    text-align: center; }
+
+  .img-asesor {
+    width: 70%; }
+
+  .numero-asesor {
+    margin-left: -17%;
+    width: 55%; }
+
+  .texto-footer {
+    padding: 6% 0%;
+    margin: 0;
+    font-size: 11px; }
+
+  .icon-facebook {
+    width: 70%;
+    margin: 10% 3%; } }
 
 /*# sourceMappingURL=main.css.map */
