@@ -33,8 +33,7 @@
 }
 
 .navbar-nav{
-	margin-left: 23%;
-	padding: 1%;
+	padding: 1% 12%;
 }
 
 li a{
@@ -255,10 +254,14 @@ input[type="submit"]{
 	img{
 		width: 100%;
 	}
+
+.nav{
+	margin-left: 0%;
+}	
 }
 
 
-@media (max-width: $screen-tablet){
+@media (max-width: $screen-phone){
 
 .rs-img{
 	width: 44%;
@@ -286,6 +289,31 @@ input[type="submit"]{
 	margin: 10% 3%;
 }
 
+.navbar-brand{
+	margin-top: -3%;
+}
 
+.navbar-nav{
+	padding: 1%;
+}
 
+.texto-carrusel{
+	font-size: 29px;
+	margin-left: 0%;
+	width: 100%;
+}
+
+.subtitulo-carrusel{
+	margin-bottom: 10%;
+	margin-left: 0%;
+	width: 100%;
+	font-size: 17px;
+}
+
+.imagen-carrusel{
+	img{
+		width: 100%;
+		height: 300px;
+	}
+}
 }
