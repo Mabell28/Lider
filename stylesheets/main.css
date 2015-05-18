@@ -5758,7 +5758,8 @@ input[type="submit"] {
 .imagen-caja {
   width: 100%; }
   .imagen-caja img {
-    width: 100%; }
+    width: 100%;
+    height: 220px; }
 
 .titulo-caja {
   padding: 2%;
